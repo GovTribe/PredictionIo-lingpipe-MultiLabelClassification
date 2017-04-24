@@ -61,7 +61,7 @@ public class Model implements PersistentModel<AlgorithmParams>, Serializable {
             CompiledClassifier  = new HashMap<>();
                        for(int k=0; k< ap.getmodelLocales().size(); k++){
                         int indexK = k;
-                         String fileName  = ap.getmodelbuildfilepath() + ap.getmodelLocales().get(indexK) + "_" + id;
+                         String fileName  = ap.getmodelbuildfilepath() + "_" + ap.getmodelLocales().get(indexK) + "_" + id;
                          Path path = Paths.get(fileName);
                          if (Files.exists(path)) {
                             ModelConfig modelConfig = new ModelConfig(ap.getmodelLocales().get(indexK));
