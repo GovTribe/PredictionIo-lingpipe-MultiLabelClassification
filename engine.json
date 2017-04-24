@@ -1,14 +1,14 @@
 {
-  "id" : "default",
+  "id" : "classification",
   "description" : "Default settings",
   "engineFactory" : "io.prediction.lingpipe.AutoCatEngine",
   "datasource" : {
     "params" : {
-      "appName" : "Classify",
-      "appId" : 3,
+      "appName" : "classification",
+      "appId" : 6,
       "entityType" : "content",
       "eventType" : "Autocategory",
-      "categoryField" : "CategoryReadable",
+      "categoryField" : "Category",
       "queryField" : "Query",
       "localeField" : "Locale",
       "stopwordentityType" : "resource",
@@ -22,7 +22,7 @@
     "params" : {
       "maxresults" : 5,
       "ngramsize" : 3,
-      "modelbuildfilepath" : "/opt/Templates/BuildModels/",
+      "modelbuildfilepath" : "/Users/jhariani/.pio_store/models/",
       "locales" : ["en", "fr", "it"]
     }
   }
