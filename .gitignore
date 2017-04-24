@@ -4,3 +4,6 @@ project/project/target/
 project/target/config-classes/
 project/target
 target/
+pio.log
+pio.sbt
+manifest.json
