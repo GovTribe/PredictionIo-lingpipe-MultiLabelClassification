@@ -1,0 +1,7 @@
+{"eventTime":"2016-03-02T09:52:49+0000","entityId": "0","event":"Autocategory","properties":{"Query":"Apple","Category":"Fruit","Locale":"en"},"entityType":"content"}
+{"eventTime":"2016-03-02T09:52:49+0000","entityId": "1","event":"Autocategory","properties":{"Query":"Pear","Category":"Fruit","Locale":"en"},"entityType":"content"}
+{"eventTime":"2016-03-02T09:52:49+0000","entityId": "2","event":"Autocategory","properties":{"Query":"Grape","Category":"Fruit","Locale":"en"},"entityType":"content"}
+{"eventTime":"2016-03-02T09:52:49+0000","entityId": "3","event":"Autocategory","properties":{"Query":"Potato","Category":"Vegetable","Locale":"en"},"entityType":"content"}
+{"eventTime":"2016-03-02T09:52:49+0000","entityId": "4","event":"Autocategory","properties":{"Query":"Spinach","Category":"Vegetable","Locale":"en"},"entityType":"content"}
+{"eventTime":"2016-03-02T09:52:49+0000","entityId": "5","event":"Autocategory","properties":{"Query":"Tomato","Category":"Vegetable","Locale":"en"},"entityType":"content"}
+{"eventTime":"2016-03-16T10:25:02+0000","entityId":"fae01e9e-b00e-46d3-becd-f91a6b3b140a","event":"stopwords","properties":{"word":"and","locale":"en"},"entityType":"resource"}
